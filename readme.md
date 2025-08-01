@@ -19,18 +19,17 @@ Este projeto é uma API Restful desenvolvida com Node.js, TypeScript e TypeORM, 
 npm install
 ```
 
-2. Crie um arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias, por exemplo:
+2.Crie um arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias, por exemplo:
 
 ```
 PORT=3333
 API_URL=http://localhost:3333
 ```
 
-3. Inicie a aplicação em modo de desenvolvimento:
+3.Inicie a aplicação em modo de desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
 Acesse a API em `http://localhost:3333`.
-
