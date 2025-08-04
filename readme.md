@@ -9,7 +9,7 @@ Este projeto é uma API Restful desenvolvida com Node.js, TypeScript e TypeORM, 
 - Express
 - TypeORM
 - PostgreSQL
-- Docker (opcional para banco de dados)
+- Docker
 
 ## Como Rodar a Aplicação
 
@@ -21,7 +21,7 @@ npm install
 
 2.Crie um arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias, por exemplo:
 
-```
+```env
 PORT=3333
 API_URL=http://localhost:3333
 ```
