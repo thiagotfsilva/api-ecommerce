@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres
+    container_name: econn_db
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=econn_db
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/bitnami/postgresql
+volumes:
+  postgres_data:
+    driver: local
