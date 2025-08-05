@@ -11,12 +11,12 @@ export function errorHandler(
     return response.status(error.statusCode).json({
       status: 'error',
       error: error.message,
-    });
+    })
   }
 
-  console.error(error);
+  console.error(error)
 
   return response
     .status(500)
-    .json({ status: 'error', message: 'Internal Server Error' });
+    .json({ status: 'error', message: 'Internal Server Error' })
 }
