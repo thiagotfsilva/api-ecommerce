@@ -1,9 +1,9 @@
-enum SortOptions {
+export enum SortOptions {
   ASC = 'asc',
   DESC = 'desc',
 }
 
-type SearchInput = {
+export type SearchInput = {
   page: number
   per_page?: number
   sort?: string | null
@@ -11,7 +11,7 @@ type SearchInput = {
   filter?: string | null
 }
 
-type SearchOutput<Model> = {
+export type SearchOutput<Model> = {
   items: Model[]
   per_page: number
   total: number
